@@ -1,15 +1,16 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Home from "./components/Home";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    fetch("/hello")
-      .then((resp) => resp.json())
-      .then((data) => setCount(data.count));
-  }, []);
+  // useEffect(() => {
+  //   fetch("/hello")
+  //     .then((resp) => resp.json())
+  //     .then((data) => setCount(data.count));
+  // }, []);
 
   return (
     <BrowserRouter>
@@ -19,7 +20,7 @@ function App() {
             <h1>Test Route</h1>
           </Route>
           <Route path="/">
-            <h1>Page Count: {count}</h1>
+            <Home />
           </Route>
         </Switch>
       </div>

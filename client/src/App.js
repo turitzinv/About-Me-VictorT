@@ -18,9 +18,6 @@ function App() {
       <div className="App">
         <NavBar />
         <Switch>
-          <Route path="/testing">
-            <h1>Test Route</h1>
-          </Route>
           <Route path="/">
             <Home />
           </Route>

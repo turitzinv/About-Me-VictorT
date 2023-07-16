@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
+import Hobbies from "./components/Hobbies";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -18,8 +19,11 @@ function App() {
       <div className="App">
         <NavBar />
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
+          </Route>
+          <Route>
+            <Hobbies path="/hobbies" />
           </Route>
         </Switch>
       </div>

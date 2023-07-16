@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Hobbies from "./components/Hobbies";
+import Projects from "./components/Projects";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -22,8 +23,11 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route>
-            <Hobbies path="/hobbies" />
+          <Route path="/hobbies">
+            <Hobbies  />
+          </Route>
+          <Route path="/projects">
+            <Projects />
           </Route>
         </Switch>
       </div>

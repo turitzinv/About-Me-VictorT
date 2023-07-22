@@ -9,8 +9,8 @@ const Hobbies = () => {
       <h1>Hobbies</h1>
       <img src = {ParkImage} height="500" width="400" alt="Park" />
       <p>In my spare time I love to go for a run at my local park.</p>
-      <img src = {DeerImage} height="500" width="400" alt="Park" />
-      <img src = {Deer2Image} height="500" width="400" alt="Park" />
+      <img id= "deer-image" src = {DeerImage} height="500" width="400" alt="Park" />
+      <img id = "deer-image2" src = {Deer2Image} height="500" width="400" alt="Park" />
       <p className="copyright">
         Copyright © 2023 Victor Turitzin. All rights reserved This website and
         its contents are protected by copyright law. Any unauthorized use of

@@ -62,3 +62,11 @@ code {
   font-size: 0.7em;
   z-index: 100;
 }
+
+#deer-image {
+  padding-right: 5px;
+}
+
+#deer-image2 {
+  padding-left: 5px;
+}

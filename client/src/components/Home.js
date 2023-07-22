@@ -9,7 +9,7 @@ const Home = () => {
       </p>
       <p>
         Please use the navigation bar on the left to learn about me and my
-        projects
+        projects.
       </p>
       <p id="copyright-home">
         Copyright © 2023 Victor Turitzin. All rights reserved This website and

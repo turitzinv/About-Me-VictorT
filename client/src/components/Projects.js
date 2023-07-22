@@ -1,5 +1,6 @@
 import React from "react";
-import FamilyRecipes from "../Images/FamilyRecipes.jpeg"
+import FamilyRecipes from "../Images/FamilyRecipes.jpeg";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -17,6 +18,13 @@ const Projects = () => {
         across a recipe book. It was written with a pencil and the lead was
         fading. I thought to myself that a family passdown like this should be
         preserved.
+        <p>
+          The following deployed website link will open a new tab and may take a
+          moment to load.
+        </p>
+        <a href="https://family-recipes.onrender.com" target="_blank">
+          Deployed Website{" "}
+        </a>
       </p>
       <h3>Ruby on Rails and React Mix</h3>
       <p className="copyright">

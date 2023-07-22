@@ -1,4 +1,5 @@
 import React from "react";
+import FamilyRecipes from "../Images/FamilyRecipes.jpeg"
 
 const Projects = () => {
   return (
@@ -9,6 +10,7 @@ const Projects = () => {
         which include areas of personal interest.
       </p>
       <h2>Capstone Project - Family Recipes</h2>
+      <img src={FamilyRecipes} height="500" width="700" alt="Family Recipes" />
       <p className="projects-p">
         I had the idea to have a place to store family recipes and share them
         with the world. I was helping family clean out old items and I came

@@ -34,3 +34,12 @@ code {
 .nav-link:hover {
   font-weight: bold;
 }
+
+.projects-p {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+}

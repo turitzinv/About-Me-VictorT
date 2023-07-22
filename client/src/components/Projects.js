@@ -1,6 +1,5 @@
 import React from "react";
 import FamilyRecipes from "../Images/FamilyRecipes.jpeg";
-import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (

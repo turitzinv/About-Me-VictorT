@@ -19,6 +19,14 @@ const Projects = () => {
         preserved.
       </p>
       <h3>Ruby on Rails and React Mix</h3>
+      <p className="copyright">
+        Copyright © 2023 Victor Turitzin. All rights reserved This website and
+        its contents are protected by copyright law. Any unauthorized use of
+        this website or its contents may be a violation of copyright law. You
+        may not reproduce, distribute, modify, transmit, or create derivative
+        works from this website or its contents without the prior written
+        permission of Victor Turitzin.
+      </p>
     </div>
   );
 };

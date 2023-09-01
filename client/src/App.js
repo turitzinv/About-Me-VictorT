@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Hobbies from "./components/Hobbies";
 import Projects from "./components/Projects";
+import CodingBackground from "./components/CodingBackground";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -22,6 +23,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route path="/background">
+            <CodingBackground />
           </Route>
           <Route path="/hobbies">
             <Hobbies  />

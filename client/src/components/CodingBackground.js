@@ -18,7 +18,12 @@ const CodingBackground = () => {
         it be done? How often have people done it?
       </p>
       <p>
-        In my research, I came across coding bootcamps.
+        In my research, I came across coding bootcamps. I was very much hesitant
+        about the idea of school, especially while holding down a full time job.
+        Although hesistant, the idea of it was a planted seed that began to
+        grow. I was curious of others who have gone through bootcamps. I began
+        researching bootcamps and listening to YouTube reviews where alumni from
+        various bootcamps were interviewed about their experiences.
       </p>
     </div>
   );

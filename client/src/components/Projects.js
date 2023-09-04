@@ -10,6 +10,7 @@ const Projects = () => {
         which include areas of personal interest.
       </p>
       <h2>Capstone Project - Family Recipes</h2>
+      <h3>Ruby on Rails and React</h3>
       <img src={FamilyRecipes} height="500" width="700" alt="Family Recipes" />
       <p className="projects-p">
         I had the idea to have a place to store family recipes and share them
@@ -25,7 +26,7 @@ const Projects = () => {
           Deployed Website{" "}
         </a>
       </p>
-      <h3>Ruby on Rails and React Mix</h3>
+      <h2>GymView</h2>
       <p className="copyright">
         Copyright © 2023 Victor Turitzin. All rights reserved This website and
         its contents are protected by copyright law. Any unauthorized use of

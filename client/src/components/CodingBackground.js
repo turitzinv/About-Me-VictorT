@@ -25,6 +25,12 @@ const CodingBackground = () => {
         researching bootcamps and listening to YouTube reviews where alumni from
         various bootcamps were interviewed about their experiences.
       </p>
+      <p className="background-p">
+        After extensive research and speaking to bootcamp graduates via
+        LinkedIn, I officially enrolled into Flatiron's Software Engineering
+        Flex Program. Allowing me to learn Software Engineering while still
+        working full time.
+      </p>
       <p className="copyright">
         Copyright © 2023 Victor Turitzin. All rights reserved This website and
         its contents are protected by copyright law. Any unauthorized use of

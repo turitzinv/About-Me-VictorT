@@ -1,13 +1,11 @@
 import React from "react";
-import PalmTree from "../Images/PalmTree.jpg"
+import PalmTree from "../Images/PalmTree.jpg";
 
 const Home = () => {
   return (
     <div>
       <h1>About Me - Victor Turitzin</h1>
-      <p>
-        Welcome to my Personal Website!
-      </p>
+      <p>Welcome to my Personal Website!</p>
       <p>
         Please use the navigation bar on the left to learn about me and my
         projects.

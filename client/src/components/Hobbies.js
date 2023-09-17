@@ -1,18 +1,40 @@
-import React from 'react'
-import ParkImage from "../Images/Park.jpg"
-import DeerImage from "../Images/Deer.jpg"
-import Deer2Image from "../Images/Deer2.jpg"
-import SnowRun from "../Images/SnowRun.jpg"
+import React from "react";
+import ParkImage from "../Images/Park.jpg";
+import DeerImage from "../Images/Deer.jpg";
+import Deer2Image from "../Images/Deer2.jpg";
+import SnowRun from "../Images/SnowRun.jpg";
 
 const Hobbies = () => {
   return (
     <div>
       <h1>Hobbies</h1>
-      <img src = {ParkImage} height="500" width="400" alt="Park" />
-      <p>In my spare time I love to go for a run at my local park. No matter the weather!</p>
-      <img id= "deer-image" src = {DeerImage} height="500" width="400" alt="Park" />
-      <img id = "deer-image2" src = {Deer2Image} height="500" width="400" alt="Park" />
-      <img id = "snow-run-image" src = {SnowRun} height="500" width="400" alt="Snow Run" />
+      <h3>Fitness, Videogames, Learning, and Horrible Puns</h3>
+      <img src={ParkImage} height="500" width="400" alt="Park" />
+      <p>
+        In my spare time I love to go for a run at my local park. No matter the
+        weather!
+      </p>
+      <img
+        id="deer-image"
+        src={DeerImage}
+        height="500"
+        width="400"
+        alt="Park"
+      />
+      <img
+        id="deer-image2"
+        src={Deer2Image}
+        height="500"
+        width="400"
+        alt="Park"
+      />
+      <img
+        id="snow-run-image"
+        src={SnowRun}
+        height="500"
+        width="400"
+        alt="Snow Run"
+      />
       <p className="copyright">
         Copyright © 2023 Victor Turitzin. All rights reserved This website and
         its contents are protected by copyright law. Any unauthorized use of
@@ -22,7 +44,7 @@ const Hobbies = () => {
         permission of Victor Turitzin.
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default Hobbies
+export default Hobbies;

@@ -31,6 +31,17 @@ const CodingBackground = () => {
         Flex Program. Allowing me to learn Software Engineering while still
         working full time.
       </p>
+      <h3>Skills learned at Flatiron School:</h3>
+      <p>Full Stack Web Development, Ruby on Rails and JavaScript Program</p>
+      <ul>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Ruby</li>
+        <li>Ruby on Rails</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>PostgreSQL</li>
+      </ul>
       <p className="copyright">
         Copyright © 2023 Victor Turitzin. All rights reserved This website and
         its contents are protected by copyright law. Any unauthorized use of

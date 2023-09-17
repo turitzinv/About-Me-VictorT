@@ -86,3 +86,8 @@ code {
   max-width: 850px;
   margin: 0 auto;
 }
+
+ul {
+  list-style-type: none;
+}
+

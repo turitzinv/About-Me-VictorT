@@ -1,6 +1,6 @@
 import React from "react";
 import FamilyRecipes from "../Images/FamilyRecipes.jpeg";
-import GymView from "../Images/GymView.jpeg"
+import GymView from "../Images/GymView.jpeg";
 
 const Projects = () => {
   return (
@@ -28,11 +28,13 @@ const Projects = () => {
         </a>
       </p>
       <h2>GymView</h2>
-      <img 
-      id = "GymView-image"
-      src={GymView}
-      alt="GymView"
-      />
+      <img id="GymView-image" src={GymView} alt="GymView" />
+      <p className="projects-p">
+        This project is inspired by my love for fitness. At the time of this
+        project I was in the process of finding a new gym. The idea was born to
+        create GymView, your view into all gyms! Users can read, post, and edit
+        their own reviews on gyms.
+      </p>
       <p className="copyright">
         Copyright © 2023 Victor Turitzin. All rights reserved This website and
         its contents are protected by copyright law. Any unauthorized use of

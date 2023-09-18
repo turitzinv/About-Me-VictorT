@@ -1,5 +1,6 @@
 import React from "react";
 import FamilyRecipes from "../Images/FamilyRecipes.jpeg";
+import GymView from "../Images/GymView.jpeg"
 
 const Projects = () => {
   return (
@@ -27,6 +28,11 @@ const Projects = () => {
         </a>
       </p>
       <h2>GymView</h2>
+      <img 
+      id = "GymView-image"
+      src={GymView}
+      alt="GymView"
+      />
       <p className="copyright">
         Copyright © 2023 Victor Turitzin. All rights reserved This website and
         its contents are protected by copyright law. Any unauthorized use of

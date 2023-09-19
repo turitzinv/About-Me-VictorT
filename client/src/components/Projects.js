@@ -35,6 +35,9 @@ const Projects = () => {
         create GymView, your view into all gyms! Users can read, post, and edit
         their own reviews on gyms.
       </p>
+      <a href="https://github.com/turitzinv/gym-review-project" target="_blank">
+          Github Link{" "}
+        </a>
       <p className="copyright">
         Copyright © 2023 Victor Turitzin. All rights reserved This website and
         its contents are protected by copyright law. Any unauthorized use of

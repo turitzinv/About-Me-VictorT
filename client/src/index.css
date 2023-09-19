@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+body {
+  background-color:rgb(226, 236, 236)
+}
+
 .nav-bar {
   position: fixed;
   top: 0;

@@ -11,7 +11,7 @@ const Projects = () => {
         which include areas of personal interest.
       </p>
       <h2>Capstone Project - Family Recipes</h2>
-      <h3>Ruby on Rails and React</h3>
+      <h4>Ruby on Rails and React</h4>
       <img src={FamilyRecipes} height="500" width="700" alt="Family Recipes" />
       <p className="projects-p">
         I had the idea to have a place to store family recipes and share them
@@ -23,11 +23,12 @@ const Projects = () => {
           The following deployed website link will open a new tab and may take a
           moment to load.
         </p>
-        <a href="https://family-recipes.onrender.com" target="_blank">
+        <a href="https://family-recipes.onrender.com" x>
           Deployed Website{" "}
         </a>
       </p>
       <h2>GymView</h2>
+      <h4>Ruby on Rails and React</h4>
       <img id="GymView-image" src={GymView} alt="GymView" />
       <p className="projects-p">
         This project is inspired by my love for fitness. At the time of this
@@ -35,7 +36,7 @@ const Projects = () => {
         create GymView, your view into all gyms! Users can read, post, and edit
         their own reviews on gyms.
       </p>
-      <a href="https://github.com/turitzinv/gym-review-project" target="_blank">
+      <a href="https://github.com/turitzinv/gym-review-project" > 
           Github Link{" "}
         </a>
       <p className="copyright">
@@ -49,5 +50,9 @@ const Projects = () => {
     </div>
   );
 };
+
+//To do:
+//Add Phase 3 Project
+//Have links open a new tab, not leave website
 
 export default Projects;

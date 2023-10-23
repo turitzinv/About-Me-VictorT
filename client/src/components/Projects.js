@@ -1,7 +1,7 @@
 import React from "react";
 import FamilyRecipes from "../Images/FamilyRecipes.jpeg";
 import GymView from "../Images/GymView.jpeg";
-import PersonalLibrary from "../Images/PersonalLibrary.jpeg"
+import PersonalLibrary from "../Images/PersonalLibrary.jpeg";
 
 const Projects = () => {
   return (
@@ -38,7 +38,17 @@ const Projects = () => {
       <a href="https://github.com/turitzinv/gym-review-project">Github Link </a>
       <h2>Personal Library</h2>
       <h4>Sinatra and React</h4>
-      <img id="PersonalLibrary-image" src={PersonalLibrary} alt="Personal Library" />
+      <img
+        id="PersonalLibrary-image"
+        src={PersonalLibrary}
+        alt="Personal Library"
+      />
+      <p className="projects-p">
+        A personal library to store and organize all your books by genre. Keep
+        track of what you've read and sort your list by specific genres.
+      </p>
+      <a href="https://github.com/turitzinv/phase-3-frontend">Frontend Link</a>
+      <a href="https://github.com/turitzinv/phase-3-sinatra-react-project">Backend Link</a>
       <p className="copyright">
         Copyright © 2023 Victor Turitzin. All rights reserved This website and
         its contents are protected by copyright law. Any unauthorized use of

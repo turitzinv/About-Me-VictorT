@@ -61,7 +61,4 @@ const Projects = () => {
   );
 };
 
-//To do:
-//Have links open a new tab, not leave website
-
 export default Projects;

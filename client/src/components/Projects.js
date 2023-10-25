@@ -24,7 +24,7 @@ const Projects = () => {
           The following deployed website link will open a new tab and may take a
           moment to load.
         </p>
-        <a href="https://family-recipes.onrender.com">Deployed Website </a>
+        <a href="https://family-recipes.onrender.com" target="_blank">Deployed Website </a>
       </p>
       <h2>GymView</h2>
       <h4>Ruby on Rails and React</h4>
@@ -35,7 +35,7 @@ const Projects = () => {
         create GymView, your view into all gyms! Users can read, post, and edit
         their own reviews on gyms.
       </p>
-      <a href="https://github.com/turitzinv/gym-review-project">Github Link </a>
+      <a href="https://github.com/turitzinv/gym-review-project" target="_blank">Github Link </a>
       <h2>Personal Library</h2>
       <h4>Sinatra and React</h4>
       <img
@@ -47,8 +47,8 @@ const Projects = () => {
         A personal library to store and organize all your books by genre. Keep
         track of what you've read and sort your list by specific genres.
       </p>
-      <a href="https://github.com/turitzinv/phase-3-frontend">Frontend Link</a>
-      <a href="https://github.com/turitzinv/phase-3-sinatra-react-project">Backend Link</a>
+      <a href="https://github.com/turitzinv/phase-3-frontend" target="_blank">Frontend Link</a>
+      <a href="https://github.com/turitzinv/phase-3-sinatra-react-project" target="_blank">Backend Link</a>
       <p className="copyright">
         Copyright © 2023 Victor Turitzin. All rights reserved This website and
         its contents are protected by copyright law. Any unauthorized use of
@@ -62,7 +62,6 @@ const Projects = () => {
 };
 
 //To do:
-//Add Phase 3 Project
 //Have links open a new tab, not leave website
 
 export default Projects;

@@ -58,6 +58,7 @@ body {
   z-index: 100;
   left: 50%;
   transform: translate(-50%, 0);
+  padding-top: 20px;
 }
 
 #copyright-home {
@@ -70,6 +71,7 @@ body {
   z-index: 100;
   left: 50%;
   transform: translate(-50%, 0);
+  padding-top: 20px;
 }
 
 #deer-image {

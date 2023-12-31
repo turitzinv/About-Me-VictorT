@@ -36,12 +36,15 @@ const Hobbies = () => {
         alt="Snow Run"
       />
       <p>
+        I have a profound love for learning, which led to me down the path of learning to code.
+      </p>
+      <p>
         If I'm not running or at the gym, I find myself looking for new things
         to learn, playing videogames, and losing friends with my puns.
       </p>
       <p className="copyright">
-        Copyright © 2023-2024 Victor Turitzin. All rights reserved This website and
-        its contents are protected by copyright law. Any unauthorized use of
+        Copyright © 2023-2024 Victor Turitzin. All rights reserved This website
+        and its contents are protected by copyright law. Any unauthorized use of
         this website or its contents may be a violation of copyright law. You
         may not reproduce, distribute, modify, transmit, or create derivative
         works from this website or its contents without the prior written

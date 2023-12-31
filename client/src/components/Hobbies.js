@@ -40,7 +40,7 @@ const Hobbies = () => {
         to learn, playing videogames, and losing friends with my puns.
       </p>
       <p className="copyright">
-        Copyright © 2023 Victor Turitzin. All rights reserved This website and
+        Copyright © 2023-2024 Victor Turitzin. All rights reserved This website and
         its contents are protected by copyright law. Any unauthorized use of
         this website or its contents may be a violation of copyright law. You
         may not reproduce, distribute, modify, transmit, or create derivative
